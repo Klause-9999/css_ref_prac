@@ -1,0 +1,51 @@
+a[target="_blank"] {
+  background-color: orangered;
+}
+
+p[lang="de"] {
+  background-color: aqua;
+}
+[title~="color"] {
+  border: 5px solid green;
+}
+[lang|=en] {
+  background: yellow;
+}
+div[class^="test"] {
+  background: salmon;
+}
+.tst{
+  border: 2px solid red;
+  background-color: green;
+  font-family: sans-serif;
+  font-size: 15px;
+  & > a {
+    color: red;
+    &:hover {
+      color: white;
+      background-color: red;
+}
+a:active {
+  background-color: yellow;
+}
+input:autofill {
+  border: 2px solid salmon;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input:checked {
+  outline: 1px solid red;
+}
+input:placeholder-shown {
+  background-color: beige;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  font-style: italic;
+}
+:target {
+  border: 2px solid darkorange;
+  background-color: beige;
+}
